@@ -1,0 +1,59 @@
+@media screen and (max-width: 620px) {
+    .header{
+      padding-block: 1.875rem;
+    }
+  
+    .character-slider{
+      padding-inline: .9375rem;
+  
+      gap: 1rem;
+    }
+  
+    .arrow-btn{
+      width: 1.5rem;
+      height: 1.5rem;
+  
+      padding: 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .character-list {
+      &>.card {
+        &>.name {
+          font-size: 1.125rem;
+          letter-spacing: initial;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .character-slider{
+      padding: 0rem .75rem 1rem .75rem;
+  
+      gap: .75rem;
+    }
+  
+    .character-list {
+      height: 30rem;
+    
+      &>.card {
+        &>.description {  
+          &>.title {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  
+    .arrow-btn{
+      width: 2rem;
+      height: 2rem;
+    
+      &>img{
+        width: 1.75rem;
+        height: 1.75rem;
+      }
+    }
+  }
